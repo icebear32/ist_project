@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ist-admin/ist-admin.iml" filepath="$PROJECT_DIR$/ist-admin/ist-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ist-api/ist-api.iml" filepath="$PROJECT_DIR$/ist-api/ist-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ist-common/ist-common.iml" filepath="$PROJECT_DIR$/ist-common/ist-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ist-java.iml" filepath="$PROJECT_DIR$/ist-java.iml" />
+    </modules>
+  </component>
+</project>

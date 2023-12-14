@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ist-admin" />
+        <module name="ist-api" />
+        <module name="ist-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="easyjob-java" target="1.8" />
+      <module name="ist-admin" target="8" />
+      <module name="ist-api" target="8" />
+      <module name="ist-common" target="1.8" />
+      <module name="ist-java" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ist-admin" options="-parameters" />
+      <module name="ist-api" options="-parameters" />
+      <module name="ist-common" options="-parameters" />
+    </option>
+  </component>
+</project>
